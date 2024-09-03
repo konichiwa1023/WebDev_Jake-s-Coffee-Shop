@@ -1,0 +1,102 @@
+body {
+    background-color: #ffffcc;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    width: 60%;
+    margin-top: 20px;
+    border-style: solid;
+}
+
+#body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#header, #footer {
+    background-color: #ccaa66;
+    height: 80px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    border-top: solid; 
+} 
+
+#header {
+    border-bottom: solid;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+}
+
+#home ul {
+    list-style-position: inside; 
+}
+
+#coffee-mug img {
+    width: 300px;
+    margin: auto;
+}
+
+#coffee-mug {
+    display: flex;
+    margin-left: 90px;
+}
+
+#navigation {
+    width: 10%;
+    padding: 15px;
+    background-color: #E8D882;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+    margin-bottom: 13px;
+}
+
+#contents {
+    padding: 15px;
+    padding-top: 30px;
+    background-color: #f1e8b0;
+    width: 90%;
+}
+
+#home, #menu, #music, #jobs {
+    margin-bottom: 50px;
+}
+
+.menu-div, .music-div, .job-div {
+    margin-bottom: 20px;
+}
